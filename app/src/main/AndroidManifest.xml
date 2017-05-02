@@ -16,21 +16,9 @@
             </intent-filter>
         </activity>
         <!-- multi image -->
-        <activity
-            android:name="lme.net.multiimageselector.GestureImageActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity
-            android:name="lme.net.multiimageselector.MultiImageSelectorActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity
-            android:name="lme.net.multiimageselector.CropImageWidget"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name="lme.net.multiimageselector.GestureImageActivity" />
+        <activity android:name="lme.net.multiimageselector.MultiImageSelectorActivity"/>
+        <activity android:name="lme.net.multiimageselector.CropImageWidget"/>
     </application>
 
 </manifest>

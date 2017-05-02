@@ -9,6 +9,6 @@
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <color name="default_circle_indicator_fill_color">#f7f7f7</color>
-    <color name="sec_default_circle_indicator_fill_color">#FD8BA5</color>
+    <color name="sec_default_circle_indicator_fill_color">#303F9F</color>
 
 </resources>
