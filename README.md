@@ -12,6 +12,7 @@
 3.开始调用
 
   MultiSelectorUtils.selectImage(this,new ImageSelector.Builder().build());
+  
   ImageSelector中可以配置是否显示相机，单选还是多选模式，是否是编辑模式，默认多选选择图片的数量
   
 4.返回结果
