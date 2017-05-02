@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="corner_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="timePicker">
+        <attr name="count" format="integer" />
+        <attr name="textsize" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Gallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyles" format="reference" />
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColors" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColors" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radiuss" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snaps" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColors" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+        <attr name="defaultPageColor" format="color" />
+        <attr name="defaultFillColor" format="color" />
+        <attr name="defaultStrokeColor" format="color" />
+    </declare-styleable>
+    <attr name="centered" format="boolean" />
+    <attr name="strokeWidth" format="dimension" />
+    <!-- 加载网络表情控件 -->
+    <declare-styleable name="SmileyImageView">
+        <attr name="defaultTextSize" format="integer" />
+        <attr name="defaultTextColor" format="color" />
+    </declare-styleable>
+    <!-- 表情选择控件 -->
+    <declare-styleable name="SmileyPanel">
+        <attr name="smileyPanelStyles" format="reference" />
+        <attr name="displayImage" format="boolean" />
+        <attr name="isIM" format="boolean" />
+    </declare-styleable>
+
+    <!--banner控件 -->
+    <declare-styleable name="CustomViewPager">
+        <attr name="viewpager_width" format="integer" />
+        <attr name="viewpager_height" format="integer" />
+    </declare-styleable>
+    <!-- 标签中画廊控件 -->
+    <declare-styleable name="FancyCoverFlow">
+        <attr name="unselectedAlpha" format="float" />
+        <attr name="unselectedSaturation" format="float" />
+        <attr name="unselectedScale" format="float" />
+        <attr name="maxRotation" format="integer" />
+        <attr name="scaleDownGravity" format="float" />
+        <attr name="actionDistance" format="integer">
+            <enum name="auto" value="2147483647" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CalendarPickerView">
+        <attr name="android:background" />
+        <attr name="dividerColor" format="color" />
+        <attr name="dayBackground" format="reference" />
+        <attr name="dayTextColor" format="color" />
+        <attr name="headerTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="calendar_cell">
+        <attr name="state_mense_start" format="boolean" />
+        <attr name="state_mense_end" format="boolean" />
+        <attr name="state_mense_ing" format="boolean" />
+        <attr name="state_mense_normal" format="boolean" />
+        <attr name="state_mense_dangerous" format="boolean" />
+        <attr name="state_mense_period_forecast" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SquareCalendarPickerView">
+        <attr name="android:background" />
+        <attr name="tsquare_dayBackground" format="reference" />
+        <attr name="tsquare_dayTextColor" format="color" />
+        <attr name="tsquare_titleTextColor" format="color" />
+        <attr name="tsquare_displayHeader" format="boolean" />
+        <attr name="tsquare_headerTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="square_calendar_cell">
+        <attr name="tsquare_state_selected" format="boolean" />
+        <attr name="tsquare_state_today" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="color_wheel_radius" format="dimension" />
+        <attr name="color_wheel_thickness" format="dimension" />
+        <attr name="color_center_radius" format="dimension" />
+        <attr name="color_center_halo_radius" format="dimension" />
+        <attr name="color_pointer_radius" format="dimension" />
+        <attr name="color_pointer_halo_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ColorBars">
+        <attr name="bar_thickness" format="dimension" />
+        <attr name="bar_length" format="dimension" />
+        <attr name="bar_pointer_radius" format="dimension" />
+        <attr name="bar_pointer_halo_radius" format="dimension" />
+        <attr name="bar_orientation_horizontal" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextStyleView">
+        <attr name="showCustomColor" format="boolean" />
+        <attr name="showFont" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PaintColorView">
+        <attr name="paintColorType" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PaintBrushPanel">
+        <attr name="isRubber" format="boolean" />
+    </declare-styleable>
+
+
+
+
+
+
+
+</resources>

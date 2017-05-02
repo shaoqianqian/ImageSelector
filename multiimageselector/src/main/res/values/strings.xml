@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultiImageSeletor</string>
+    <string name="dialog_photo">图片</string>
+    <string name="ui_done">完成</string>
+    <string name="ui_done_percent">完成(%1$d)</string>
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="sq_error">操作失败，神马情况</string>
+</resources>

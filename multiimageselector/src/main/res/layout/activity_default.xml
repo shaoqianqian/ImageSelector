@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/sec_default_circle_indicator_fill_color">
+
+    <RelativeLayout
+        android:id="@+id/top_lay"
+        style="@style/top_bar_style">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            style="@style/top_bar_black"/>
+
+        <TextView
+            android:id="@+id/multi_image_title"
+            android:text="@string/dialog_photo"
+            style="@style/sns_title"/>
+
+        <Button
+            android:id="@+id/commit"
+            style="@style/btn_sure"
+            android:text="@string/ui_done" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</LinearLayout>

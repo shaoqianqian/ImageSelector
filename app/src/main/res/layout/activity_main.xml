@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/select_one_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择单张图片" />
+    <Button
+        android:id="@+id/select_one_not_camera_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择单张图片(不包括相机)" />
+    <Button
+        android:id="@+id/select_more_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择多张图片" />
+    <Button
+        android:id="@+id/select_more_not_camera_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择多张图片(不包括相机)" />
+    <TextView
+        android:id="@+id/show_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
